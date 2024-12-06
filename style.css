@@ -1,0 +1,64 @@
+#rectangle{
+    width: 20%;
+    height:22%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginn{
+    position: absolute;
+    transform: translate(-50%, -100%);
+    top: 50%;
+    left: 50%;
+}
+
+#login{
+    position: absolute;
+    transform: translate(-350%, -40%);
+    top: 50%;
+    left: 50%;
+}
+
+#key{
+    position: absolute;
+    transform: translate(-350%, 100%);
+    top: 50%;
+    left: 50%;
+}
+
+#user{
+    position: absolute;
+    transform: translate(-50%, 0%);
+    top: 50%;
+    left: 50%;
+}
+
+#pass{
+    position: absolute;
+    transform: translate(-50%, 280%);
+    top: 50%;
+    left: 50%;
+}
+
+#loginButton{
+    position: absolute;
+    transform: translate(220%, 140%);
+    top: 50%;
+    left: 50%;
+}
+
+#background{
+    background-image: url("../static/background.jpg");
+    background-color: #66BB6A;
+    height: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 5px solid #66BB6A;
+}

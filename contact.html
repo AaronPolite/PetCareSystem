@@ -1,0 +1,52 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminstyle.css') }}">
+</head>
+<body>
+    <div id="background"></div>
+    <div id="indexRectangle">
+        <div class="profile-img"></div>
+        <button class="back-btn" onclick="window.location.href = '/index';">
+            <div class="icon"></div>
+            <div class="text">Back</div>
+        </button>
+        <div class="container">
+            <section class="contact-info">
+                <h3 id="h3">We’re here to help your pets feel their best!</h3>
+                <p id="p">If you have any questions, concerns, or would like to book an appointment for your pet, please get in touch with us.</p>
+                
+                <div class="address">
+                    <h3>Our Location:</h3>
+                    <p><strong>[Insert Clinic Name]</strong><br>
+                    [Street Address]<br>
+                    [City, State, Zip Code]<br>
+                    [Country]</p>
+                </div>
+        
+                <div class="phone">
+                    <h3>Phone:</h3>
+                    <p>(555) 123-4567</p>
+                </div>
+        
+                <div class="email">
+                    <h3>Email:</h3>
+                    <p>info@vetclinic.com</p>
+                </div>
+        
+                <div class="hours">
+                    <h3>Business Hours:</h3>
+                    <p>Monday to Friday: 8:00 AM - 6:00 PM</p>
+                    <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </section>
+        </div>
+        
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminstyle.css') }}">
+</head>
+<body>
+    <div id="background"></div>
+    <div id="addRectangle">
+        <form>
+            <label id="firstName">First Name:</label>
+            <input type="text" id="firstNameText" name="firstNameText"><br><br>
+            <label id="lastName">Last Name:</label>
+            <input type="text" id="lastNameText" name="lastNameText"><br><br>
+            <label id="email">Email Address:</label>
+            <input type="text" id="emailText" name="emailText"><br><br>
+            <label id="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneText" name="phoneText"><br><br>
+            <label id="petName">Pet Name:</label>
+            <input type="text" id="petNameText" name="petNameText"><br><br>
+            <label id="petSpecies">Pet Species:</label>
+            <input type="text" id="speciesText" name="speciesText"><br><br>
+            <label id="petAge">Pet Age:</label>
+            <input type="text" id="petAgeText" name="petAgeText"><br><br>
+            <input type="submit" value="Update User" id="updateUserButton">
+            <input type="submit" value="Delete User" id="deleteUserButton">
+            
+          </form>
+    </div>
+</body>
+</html>

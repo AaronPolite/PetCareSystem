@@ -1,0 +1,412 @@
+#rectangle{
+    width: 20%;
+    height:10%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#editRectangle{
+    width: 20%;
+    height:10%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#modifyRectangle{
+    width: 20%;
+    height:10%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#addRectangle{
+    width: 20%;
+    height:40%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    position: absolute;
+    top:50%;
+    background-color:#195c0c;
+    color: #66bb6a;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-family: 'Bungee Shade';
+    font-size: 28px;
+  }
+
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #08560a;
+    transition: 0.7s;
+}
+
+.button:active {
+    background-color: #66bb6a;
+}
+#indexRectangle{
+    width: 70%;
+    height:80%;
+    background: #66bb6a;
+    border: 3px solid #38663A;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logout-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 22px;
+    background: #FFD700;
+    color: #08560a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(117, 140, 4, 0.504);
+    transform: translate(400%, -800%);
+    top: 50%;
+    left: 50%;
+  }
+
+  .back-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 22px;
+    background: #FFD700;
+    color: #08560a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(117, 140, 4, 0.504);
+    transform: translate(500%, -800%);
+    top: 50%;
+    left: 50%;
+  }
+  
+  .profile-img {
+    height: 100px;
+    width: 100px;
+    background: url('profile.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+
+#viewButton{
+    position: absolute;
+    transform: translate(20%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 60%
+}
+#editButton{
+    position: absolute;
+    transform: translate(-120%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 60%
+}
+
+#medicalButton{
+    position: absolute;
+    transform: translate(-115%, 18%);
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 35%
+}
+
+#recentButton{
+    position: absolute;
+    transform: translate(-115%, -100%);
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 35%
+}
+
+#billButton{
+    position: absolute;
+    transform: translate(15%, -100%);
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 35%
+}
+
+#contactButton{
+    position: absolute;
+    transform: translate(15%, 18%);
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 35%
+}
+
+#addButton{
+    position: absolute;
+    transform: translate(20%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 60%
+}
+#modifyButton{
+    position: absolute;
+    transform: translate(-120%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 60%
+}
+
+#addUserButton{
+    position: absolute;
+    transform: translate(-45%, 545%);
+    top: 50%;
+    left: 50%;
+}
+
+#updateUserButton{
+    position: absolute;
+    transform: translate(-100%, 545%);
+    top: 50%;
+    left: 50%;
+}
+
+#deleteUserButton{
+    position: absolute;
+    transform: translate(7%, 545%);
+    top: 50%;
+    left: 50%;
+}
+#enterID{
+    position: absolute;
+    transform: translate(-115%, -50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Bungee Shade';font-size: 16px;
+    color: rgb(58, 55, 55);
+}
+
+#findButton{
+    position: absolute;
+    transform: translate(260%, 105%);
+    top: 50%;
+    left: 50%;
+}
+
+#enterTextM{
+    position: absolute;
+    transform: translate(-10%, -50%);
+    top: 50%;
+    left: 50%;   
+}
+
+#firstNameText{
+    position: absolute;
+    transform: translate(-28%, -690%);
+    top: 50%;
+    left: 50%;   
+}
+#lastNameText{
+    position: absolute;
+    transform: translate(-28%, -520%);
+    top: 50%;
+    left: 50%;   
+}
+
+#emailText{
+    position: absolute;
+    transform: translate(-28%, -350%);
+    top: 50%;
+    left: 50%;   
+}
+
+#petNameText{
+    position: absolute;
+    transform: translate(-28%, 15%);
+    top: 50%;
+    left: 50%;   
+}
+#speciesText{
+    position: absolute;
+    transform: translate(-28%, 180%);
+    top: 50%;
+    left: 50%;   
+}
+
+#petAgeText{
+    position: absolute;
+    transform: translate(-28%, 360%);
+    top: 50%;
+    left: 50%;   
+}
+#background{
+    background-image: url("../static/background.jpg");
+    background-color: #66BB6A;
+    height: 718px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 5px solid #66BB6A;
+}
+
+.containerr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;   
+    width: 100%; /* Make the container take full width of the screen */
+    max-width: 800px; /* Set a max width to keep the content from stretching too far */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    overflow: hidden; /* Prevent overflow if content exceeds container size */
+    background-color: #2c702e; /* Optional: background color for the container */
+    border-radius: 15px; /* Round the corners of the container */
+
+}
+
+#h3{
+    color:white;
+}
+
+#p{
+    color:white;
+}
+
+/* Contact info section styles */
+.contact-info {
+    font-size: 14px; /* General text size */
+    line-height: 1.6; /* Improve readability */
+}
+
+.contact-info h3 {
+    font-size: 16px; /* Slightly larger text for section titles */
+    margin-top: 0; /* Remove margin at the top of section headers */
+    margin-bottom: 8px; /* Add space below section titles */
+}
+
+.contact-info p {
+    font-size: 14px; /* Make paragraphs smaller */
+    margin: 5px 0; /* Add space between paragraphs */
+}
+
+.contact-info .address p,
+.contact-info .phone p,
+.contact-info .email p,
+.contact-info .hours p {
+    font-size: 13px; /* Smaller text for detailed information */
+}
+
+/* Ensure each section has some spacing and is aligned properly */
+.contact-info .address,
+.contact-info .phone,
+.contact-info .email,
+.contact-info .hours {
+    margin-bottom: 10px; /* Space between sections */
+}
+
+/* Round the corners of each section */
+.contact-info > div {
+    border-radius: 8px; /* Round corners for address, phone, email, hours sections */
+    padding: 10px; /* Add padding inside each section */
+    background-color: #ffd700; /* Optional: background color for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add subtle shadow */
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 8px;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+    border-radius: 8px;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+    border-radius: 8px;
+}
+
+

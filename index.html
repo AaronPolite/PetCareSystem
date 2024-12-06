@@ -1,0 +1,25 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminstyle.css') }}">
+</head>
+<body>
+    <div id="background"></div>
+    <div id="indexRectangle">
+        <div class="profile-img"></div>
+        <button class="logout-btn" onclick="window.location.href = '/login';">
+            <div class="icon"></div>
+            <div class="text">Logout</div>
+        </button>
+        <button type="button" class="button" id="medicalButton" onclick="window.location.href = '/records';">Medical Records</button>
+        <button type="button" class="button" id="recentButton" onclick="window.location.href = '/recent';">Last Visit</button>
+        <button type="button" class="button" id="billButton" onclick="window.location.href = '/bills';">Medical Bills</button>
+        <button type="button" class="button" id="contactButton" onclick="window.location.href = '/contact';">Contact Us</button>
+    </div>
+</body>
+</html>

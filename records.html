@@ -1,0 +1,38 @@
+<!-- templates/admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminstyle.css') }}">
+</head>
+<body>
+    <div id="background"></div>
+    <div id="indexRectangle">
+        <div class="profile-img"></div>
+        <button class="back-btn" onclick="window.location.href = '/index';">
+            <div class="icon"></div>
+            <div class="text">Back</div>
+        </button>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dom</td>
+                    <td>6000</td>
+                </tr>
+                <tr class="active-row">
+                    <td>Melissa</td>
+                    <td>5150</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>

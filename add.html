@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='adminstyle.css') }}">
+</head>
+<!-- <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    
+    body {
+      /* font-family: sans-serif; */
+      background: linear-gradient(45deg, #009879, #1E88E5);
+    }
+    body .container {
+      width: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0;
+      box-shadow: 0 0 100px RGBa(0, 0, 0, 0.5);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    /* body .container input {
+      
+    } */
+
+    #tab1, #tab2{
+      display: none;
+    }
+
+    
+    body .container input:checked + label {
+      background: #eee;
+    }
+    body .container input#tab1:checked ~ .line {
+      left: 0%;
+    }
+    body .container input#tab1:checked ~ .content-container #c1 {
+      opacity: 1;
+    }
+    body .container input#tab2:checked ~ .line {
+      left: 25%;
+    }
+    body .container input#tab2:checked ~ .content-container #c2 {
+      opacity: 1;
+    }
+
+    body .container label {
+      display: inline-block;
+      font-size: 15px;
+      height: 36px;
+      line-height: 36px;
+      width: 25%;
+      text-align: center;
+      background: #66bb6a;
+      color: #2a342c;
+      position: relative;
+      transition: 0.25s background ease;
+      cursor: pointer;
+    }
+    body .container label::after {
+      content: "";
+      height: 2px;
+      width: 100%;
+      position: absolute;
+      display: block;
+      background: #66bb6a;
+      bottom: 0;
+      opacity: 0;
+      left: 0;
+      transition: 0.25s ease;
+    }
+    body .container label:hover::after {
+      opacity: 1;
+    }
+    body .container .line {
+      position: absolute;
+      height: 2px;
+      background: #1E88E5;
+      width: 25%;
+      top: 34px;
+      left: 0;
+      transition: 0.25s ease;
+    }
+    body .container .content-container {
+      background: #66bb6a;
+      position: relative;
+      height: 330px;
+      font-size: 16px;
+    }
+    body .container .content-container .content {
+      position: absolute;
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      opacity: 0;
+      transition: 0.25s ease;
+      color: #333;
+    }
+    body .container .content-container .content h3 {
+      font-weight: 200;
+      margin: 10px 0;
+    }
+    body .container .content-container .content p {
+      margin: 10px 0;
+    }
+    body .container .content-container .content p, body .container .content-container .content i {
+      font-size: 13px;
+    }
+    </style> -->
+<body>
+    <div id="background"></div>
+    
+        <form action="{{ url_for('add') }}" method="post">
+            <!-- <div class="container">
+                <input type="radio" id="tab1" name="tab" checked>
+                <label for="tab1"><i class="fa fa-code"></i> Features</label>
+                <input type="radio" id="tab2" name="tab">
+                <label for="tab2"><i class="fa fa-history"></i> History</label>
+                
+                <div class="line"></div>
+                <div class="content-container">
+                  <div class="content" id="c1">
+                    <label id="firstName">First Name:</label>
+                    <input type="text" id="firstNameText" name="firstNameText"><br><br>
+                    <label id="lastName">Last Name:</label>
+                    <input type="text" id="lastNameText" name="lastNameText"><br><br>
+                    <label id="email">Email Address:</label>
+                    <input type="text" id="emailText" name="emailText"><br><br>
+                    <label id="phoneNumber">Phone Number:</label>
+                    <input type="text" id="phoneText" name="phoneText"><br><br>
+                  </div>
+                  <div class="content" id="c2">
+                    <h3>History</h3>
+                    <p>The project started in 2018 when someone needed something.</p>
+                  </div>
+                  
+                </div> -->
+ 
+        <div class="msg">{{ msg }}</div>
+          <div id="addRectangle">
+            <label id="firstName">First Name:</label>
+            <input type="text" id="firstNameText" name="firstNameText"><br><br>
+            <label id="lastName">Last Name:</label>
+            <input type="text" id="lastNameText" name="lastNameText"><br><br>
+            <label id="email">Email Address:</label>
+            <input type="text" id="emailText" name="emailText"><br><br>
+            <label id="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneText" name="phoneText"><br><br>
+            <label id="petName">Pet Name:</label>
+            <input type="text" id="petNameText" name="petNameText"><br><br>
+            <label id="petSpecies">Pet Species:</label>
+            <input type="text" id="speciesText" name="speciesText"><br><br>
+            <label id="petAge">Pet Age:</label>
+            <input type="text" id="petAgeText" name="petAgeText"><br><br>
+            <label id="username">Username:</label>
+            <input type="text" id="userText" name="userText"><br><br>
+            <label id="password">Password:</label>
+            <input type="text" id="passText" name="passText"><br><br>
+            <input type="submit" value="Add User" id="addUserButton">
+          </div>
+          </form>
+    </div>
+</body>
+</html>
